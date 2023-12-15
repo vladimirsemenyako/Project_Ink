@@ -5,10 +5,10 @@
 
   .nav-button {
     display: flex;
-    position: fixed;
     z-index: 2;
     top: 40px;
-    right: 15px
+    right: 15px;
+    position: absolute;
   }
 
   .nav.open .nav-list {
@@ -16,7 +16,6 @@
     flex-direction: column;
     align-items: start;
     row-gap: 50px;
-    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -33,6 +32,8 @@
 
   .header-nav {
     justify-content: center;
+    align-items: center;
+    gap: 10vh;
   }
 
   .main-content-subitem {
